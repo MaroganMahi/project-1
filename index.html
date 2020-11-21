@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonepe</title>
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <header class="hero">
+       <div class="banner">
+         <img src="PhonePe_logo.svg" alt="">
+        <h1>Welcome to Phonepe</h1>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        <label for="pass">Enter password:</label>
+        <input type="password" id="pass" name="pass" required><br><br>
+        <a href="phonepe.html">
+          <button class="btn modal-btn">Submit
+            </button></a>
+       </div>
+   </header>
+   <div class="modal-overlay">
+       <div class="modal-container">
+       
+       </div>
+   </div>
+    <!-- javascript -->
+    <script src="apps.js"></script>
+  </body>
+</html>
